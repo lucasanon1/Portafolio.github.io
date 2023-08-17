@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4e82cf;
+    color: #333333;
+}
+
+.contenedorBase {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header ul li a:hover {
+    color: white;
+    background-color: black;
+
+}
+
+.section table {
+    text-align: center;
+    margin: auto;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.listaHab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+#habilidades ul li {
+    text-align: justify;
+}
+
+#perfiles ul {
+    margin-left: -40px;
+}
+
+#perfiles ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#perfiles ul li a img {
+    width: 50px;
+}
+
+#perfiles ul li a img:hover {
+    opacity: 30%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.formulario label {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.formulario input[type="submit"] {
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario input[type="text"],
+input[type="email"] {
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 2px black;
+}
+
+.formulario select {
+    width: 377px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 2px black;
+}
+
+.formulario textarea {
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 2px black;
+}
+
+
+.formulario input[type="submit"]:hover {
+    background-color: #5c5c5c;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    header ul li {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .section table {
+        font-size: 90%;
+    }
+
+}
